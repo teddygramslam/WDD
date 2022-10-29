@@ -39,7 +39,7 @@
     text-align: center;
   }
   
-  #mountains {
+  .mountains {
     text-align: center;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -60,8 +60,11 @@
     margin: 0;
   }
 
-  header {
+  header{
     background-color: #ABD9ff;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: .7;
   }
   
   nav a:hover {
@@ -157,14 +160,14 @@
     font-family: var(--paragraph-font);
   }
 
-  header{
-    display: grid;
-    grid-template-columns: 150px auto;
-  }
-
   nav{
     display: flex;
     justify-content: space-around;
+  }
+
+  .home-grid{
+    display: grid;
+    grid-template-columns: 10fr;
   }
 
   .home-title{
@@ -227,10 +230,7 @@
     box-sizing: border-box;
   }
 
-  .home-grid{
-    display: grid;
-    grid-template-columns: 10fr;
-  }
+
 
 
 
